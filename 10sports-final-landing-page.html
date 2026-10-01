@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>10sports | Official Portal & Support Desk</title>
+<style>
+:root{--orange:#ff6a00;--orange2:#ff9700;--black:#080808;--text:#fff;--muted:#a9a9a9;--line:rgba(255,255,255,.10)}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:Inter,Arial,sans-serif;background:var(--black);color:var(--text)}
+body{background:radial-gradient(circle at 50% 22%,rgba(255,106,0,.16),transparent 31%),radial-gradient(circle at 12% 85%,rgba(255,106,0,.07),transparent 27%),var(--black)}
+.page{min-height:100vh;display:flex;flex-direction:column}
+header{height:76px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:center;position:relative;padding:0 22px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:-1px;font-size:22px}
+.logo-mark{width:39px;height:39px;border-radius:11px;background:#211f20;display:grid;place-items:center;overflow:hidden}.logo-mark img{width:100%;height:100%;object-fit:contain;padding:4px}
+.connect{position:absolute;right:22px;padding:10px 15px;border:1px solid #333;border-radius:8px;color:#fff;text-decoration:none;font-size:12px;font-weight:800;background:#111}
+.connect:hover{border-color:var(--orange);color:var(--orange)}
+main{flex:1;display:flex;align-items:center;justify-content:center;padding:62px 20px 45px}
+.hero{width:min(620px,100%);text-align:center}
+.profile-dp{
+  width:112px;
+  height:112px;
+  margin:0 auto 20px;
+  border-radius:50%;
+  overflow:hidden;
+  background:#211f20;
+  border:4px solid #fff;
+  box-shadow:0 8px 28px rgba(0,0,0,.28);
+}
+.profile-dp img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.kicker{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:800;letter-spacing:2px;color:#cfcfcf;margin-bottom:24px}
+.kicker:before{content:"";width:7px;height:7px;border-radius:50%;background:#2ed573;box-shadow:0 0 12px #2ed573}
+.brand{font-size:clamp(48px,9vw,76px);line-height:.95;letter-spacing:-4px;font-weight:1000;margin:0}
+.brand .ten{color:var(--orange)}
+.sub{margin:15px 0 0;font-size:15px;color:#c1c1c1}
+.description{max-width:520px;margin:24px auto 0;color:var(--muted);font-size:15px;line-height:1.65}
+.features{display:flex;justify-content:center;flex-wrap:wrap;gap:9px;margin:28px 0 30px}
+.feature{padding:9px 13px;border:1px solid var(--line);border-radius:7px;background:rgba(255,255,255,.035);color:#d8d8d8;font-size:11px;font-weight:800}
+.cta{display:flex;align-items:center;justify-content:center;gap:13px;width:min(470px,100%);height:65px;margin:0 auto;border-radius:10px;text-decoration:none;color:#111;font-size:16px;font-weight:1000;background:linear-gradient(135deg,#ff7200,#ff9b19);box-shadow:0 0 0 1px rgba(255,140,0,.45),0 12px 40px rgba(255,106,0,.24);transition:.2s}
+.cta:hover{transform:translateY(-2px);box-shadow:0 0 0 1px rgba(255,170,50,.7),0 16px 45px rgba(255,106,0,.32)}
+.wa{width:25px;height:25px;border:2px solid #111;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:1000}
+.note{margin-top:14px;font-size:10px;color:#777}
+.security{display:flex;align-items:center;justify-content:center;gap:7px;margin-top:17px;color:#8c8c8c;font-size:10px}
+footer{border-top:1px solid var(--line);padding:20px;text-align:center;color:#707070;font-size:10px;line-height:1.7}
+footer a{color:#999;text-decoration:none;margin:0 7px}
+@media(max-width:600px){header{height:68px}.profile-dp{width:96px;height:96px;margin-bottom:17px}.connect{right:15px;padding:9px 11px;font-size:10px}.logo{font-size:19px}.logo-mark{width:34px;height:34px;font-size:15px}main{padding:45px 17px 35px}.brand{letter-spacing:-3px}.description{font-size:14px}.cta{height:62px;font-size:15px}}
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+<a class="connect" href="#contact">Let's connect →</a>
+</header>
+<main id="contact">
+<section class="hero">
+<div class="profile-dp">
+  <img src="10sports-dp-logo.png" alt="10sports display picture">
+</div>
+<div class="kicker">OFFICIAL GATEWAY</div>
+<h1 class="brand"><span class="ten">10</span>SPORTS</h1>
+<div class="sub">Fast • Reliable • 24/7 Support Desk</div>
+<p class="description">Connect instantly with 10sports on WhatsApp for account assistance, real-time updates, and dedicated member support.</p>
+<div class="features">
+<div class="feature">Instant Support</div><div class="feature">Direct WhatsApp</div><div class="feature">24/7 Online</div>
+</div>
+<a class="cta" href="https://wa.me/XXXXXXXXXXXX" target="_blank" rel="noopener"><span class="wa">◔</span>MESSAGE ON WHATSAPP</a>
+<div class="note">Opens WhatsApp · Connect when you're ready</div>
+<div class="security">🔒 Secure WhatsApp Channel</div>
+</section>
+</main>
+<footer>
+<div>10sports.club</div>
+<div><a href="#">Privacy Policy</a> • <a href="#">Terms &amp; Conditions</a> • <a href="#">Disclaimer</a></div>
+<div>© 2026 10sports. All rights reserved.</div>
+</footer>
+</div>
+</body>
+</html>
